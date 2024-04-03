@@ -10,6 +10,10 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(sass|less|css)$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   plugins: [
