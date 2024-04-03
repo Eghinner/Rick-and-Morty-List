@@ -1,0 +1,35 @@
+{
+    "editor.formatOnSave": true, 
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.validate": ["javascript"],
+    "html.validate.scripts": true,
+    "html.validate.styles": true,
+    "html.format.enable": true,
+    "htmlhint.enable": true,
+    "htmlhint.options": {
+      "tagname-lowercase": true,
+      "attr-lowercase": false,
+      "attr-value-double-quotes": true,
+      "doctype-first": true,
+      "tag-pair": true,
+      "spec-char-escape": true,
+      "id-unique": true,
+      "head-script-disabled": true,
+      "style-disabled": true
+    },
+    "[html]": {
+      "editor.tabSize": 4,
+    },
+    "[css]": {
+      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter",
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true,
+    },
+    "[js]": {
+      "editor.tabSize": 2,
+    },
+    "prettier.printWidth": 200,
+    "px-to-rem.px-per-rem": 16,
+    "css.lint.unknownAtRules": "ignore"
+}
